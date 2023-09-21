@@ -15,22 +15,22 @@ class SubCategoryImageSeeder extends Seeder
     public function run(): void
     {
         ImageSubcategory::create([
-            'subcategory_id' => 5, 
+            'subcategory_id' => 1, 
             'path' => '/sub-img/cheese-tasting.jpg', 
         ]);
 
         ImageSubcategory::create([
-            'subcategory_id' => 6, 
+            'subcategory_id' => 2, 
             'path' => '/sub-img/wine-tasting.jpg', 
         ]);
 
         ImageSubcategory::create([
-            'subcategory_id' => 7, 
+            'subcategory_id' => 3, 
             'path' => '/sub-img/cocktail-masterclass.jpg', 
         ]);
 
         ImageSubcategory::create([
-            'subcategory_id' => 8, 
+            'subcategory_id' => 4, 
             'path' => '/sub-img/coocking-class.jpg', 
         ]);
 
